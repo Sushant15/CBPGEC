@@ -1,0 +1,125 @@
+//Line Following robot code using arduino uno R3 
+
+
+
+
+
+const int mp1=2;  
+
+const int mp2=3; 
+
+const int mp3=4;  
+
+const int mp4=5; 
+
+void setup() {
+
+Serial.begin(9600);  
+
+pinMode(11,OUTPUT); 
+
+pinMode(mp1,OUTPUT); //defining the pins for motor as output
+
+pinMode(mp2,OUTPUT);
+
+pinMode(mp3,OUTPUT);
+
+pinMode(mp4,OUTPUT);
+
+pinMode(A1,INPUT); //Middle sensor //defining the pins for sensors for input
+
+pinMode(A2,INPUT); //Left sensor
+
+pinMode(A0,INPUT); //Right sensor 
+
+}
+
+
+
+void loop() {
+
+  
+
+   
+
+  int senM=analogRead(A1); //reading the input given by the sensors 
+
+  int senL=analogRead(A2);
+
+  int senR=analogRead(A0);
+
+  int sensorValue = analogRead(A0);
+
+  Serial.println(sensorValue);
+
+  //STRAIGHT
+
+  //Enter the sensor values ny reading them from the serial monitor 
+
+  if(senR<=100 && senM>=600 && senL<=100) //middle sensor is on black line  
+
+  {
+
+      digitalWrite(mp1,LOW);    
+
+      digitalWrite(mp2,HIGH);  //right motor forward  
+
+      digitalWrite(mp3,LOW);     
+
+      digitalWrite(mp4,HIGH);//Left motor forward
+
+   }
+
+   //RIGHT TURN
+
+  if(senR>=600 && senM>=600 && senL<=100)
+
+  {
+
+      digitalWrite(mp1,LOW);    
+
+      digitalWrite(mp2,LOW); 
+
+      digitalWrite(mp3,LOW);     
+
+      digitalWrite(mp4,HIGH); 
+
+      delay(10); 
+
+  }
+
+  //LEFT TURN
+
+  if(senR<=100 && senM>=600 && senL>=600)
+
+  {
+
+      digitalWrite(mp1,LOW);    
+
+      digitalWrite(mp2,HIGH);   
+
+      digitalWrite(mp3,LOW);     
+
+      digitalWrite(mp4,LOW);  
+
+  }
+
+  
+
+  //360 TURN
+
+  if(senR<=100 && senM<=100 && senL<=100)
+
+  {
+
+      digitalWrite(mp1,LOW);    
+
+      digitalWrite(mp2,HIGH);  
+
+      digitalWrite(mp3,HIGH);     
+
+      digitalWrite(mp4,LOW); 
+
+ }
+
+}
