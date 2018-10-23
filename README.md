@@ -3,8 +3,8 @@ This Repository is an effort by the students of Ch Brahm Prakash Government Engi
 
 # Rules for contributing to this repository
 
-1. Branch can be created from the project of previous year batch students only.    
-For Ex. 1st year students can create branch only from 2nd year students and not from 3rd or 4th year students. 
+1. **Branch can be created from the project of previous year batch students only.    
+For Ex. 1st year students can create branch only from 2nd year students and not from 3rd or 4th year students.** 
 
 2. Students working in teams have to create a branch from their team leader (if all team members are from same batch). 
 
@@ -19,4 +19,4 @@ The List of [CONTRIBUTORS](CONTRIBUTORS)
 
 Happy Contributing!
 
-*DO NOT MAKE CHANGES TO THIS FILE*
+**DO NOT MAKE CHANGES TO THIS FILE**
