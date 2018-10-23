@@ -1,5 +1,5 @@
 # CBPGEC
-This Repository is an effort by the students of Ch Brahm Prakash Government Engineering College to start various projects and share the knowlege with future batches with the expectation that they will contribute something more to this project
+This Repository is an effort by the students of Ch Brahm Prakash Government Engineering College to start various projects and share the knowlege with future batches with the expectation that they will contribute more to this project
 
 # Rules for contributing to this repository
 
