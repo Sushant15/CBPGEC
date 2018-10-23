@@ -15,4 +15,4 @@ For Ex. 1st year students can create branch only from 2nd year students and not 
 5)You have to add your name as well as your team members name(if working in team) in format given below  
 
 
-The List of [CONTRIBUTORS](CONTRIBUTORS.md)
+The List of [CONTRIBUTORS](CONTRIBUTORS)
