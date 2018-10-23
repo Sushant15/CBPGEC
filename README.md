@@ -12,13 +12,7 @@ For Ex. 1st year students can create branch only from 2nd year students and not 
 
 4)When creating a branch, keep the names of all the seniors in README.md file and add your name on the top of the list in format prescribed in Rule 5 after pressing 'Enter' key twice. 
 
-5)You have to add your name as well as your team members name(if working in team) in format given below:  
+5)You have to add your name as well as your team members name(if working in team) in format given below  
 
 
-Full Name                       Batch                 Roll. No.  
-
-
-Ankur Tanwar                    2015-19               00720703115  
-Abhimanyu Yadav                 2015-19               00220703115  
-Lakshay Piplani                 2015-19               02320703115  
-Sushant Garg                    2015-19               05020703115  
+The List of [CONTRIBUTORS](CONTRIBUTORS.md)
